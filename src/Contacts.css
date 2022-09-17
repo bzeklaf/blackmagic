@@ -1,0 +1,80 @@
+
+.heading-large-contacts {
+    margin: 10vh;
+}
+
+.contacts-1 {
+    display: flex;
+    justify-content: center;
+}
+
+.contacts-2 {
+    display: flex;
+    justify-content: center;
+}
+
+
+.inline {
+    display: flex;
+    justify-content: space-around;
+    padding: 1.5vh;
+}
+
+.text-small-contacts {
+    padding: 0vh 1.5vh 1.5vh 1.5vh;
+}
+
+
+.gradient-box-contacts {
+    height: 260px;
+    width: 400px;
+    border: 5px solid white;
+    border-radius: 10px;
+    border: double 4px transparent;
+    background-image: linear-gradient(#0f0b30, #0f0b30), linear-gradient(to right,
+            #C871DE,
+            #69A0DC,
+            #53B5D7);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+
+.img-contacts {
+    width: 275px;
+    margin-left: 11vh;
+    margin-right: 11vh;
+}
+
+.contacts-1 {
+    margin-bottom: 8vh;
+}
+
+ @media screen and (max-width: 480px) {
+   .contacts-1 {
+    flex-direction: column-reverse;
+   }
+
+   .contacts-2 {
+       flex-direction: column;
+   }
+
+   .img-contacts {
+       margin-left: 10vh;
+    margin-bottom: 3vh;
+   }
+
+
+.heading-small-gradient-contacts {
+    font-size: 30px;
+}
+
+.gradient-box-contacts {
+    width: 20rem ;
+    margin-left: 0.5rem;
+ }
+
+ .heading-large-contacts {
+     margin: 5vh;
+ }
+ }
+

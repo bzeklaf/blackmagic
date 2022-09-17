@@ -1,0 +1,117 @@
+.total-apply {
+    display: flex;
+    justify-content: center;
+    margin-top: 15vh;
+}
+
+.apply-flex {
+    display: flex;
+}
+
+.gradient-box-apply-small {
+    display: flex;
+    justify-content: space-around;
+    height: 10vh;
+    width: 67vh;
+    border: 5px solid white;
+    border-radius: 50px;
+    border: double 4px transparent;
+    background-image: linear-gradient(#0f0b30, #0f0b30), linear-gradient(to right,
+            #C871DE,
+            #69A0DC,
+            #53B5D7);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    margin-right: 5vh;
+    
+}
+
+.gradient-box-apply-large {
+    display: flex;
+    justify-content: center;
+    height: 25vh;
+    width: 140vh;
+    border: 5px solid white;
+    border-radius: 30px;
+    border: double 4px transparent;
+    background-image: linear-gradient(#0f0b30, #0f0b30), linear-gradient(to right,
+            #C871DE,
+            #69A0DC,
+            #53B5D7);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+
+.button-apply {
+    width: 30vh;
+    justify-content: center;
+    margin: 7vh;
+    background-image: linear-gradient(#0f0b30, #0f0b30), linear-gradient(to right,
+                    #C871DE,
+                    #69A0DC,
+                    #53B5D7);
+background-origin: border-box;
+    background-clip: content-box, border-box;
+    border-radius: 10px;
+}
+
+.text-small-apply {
+    text-align: center;
+    margin: 2vh;
+}
+
+.input-small {
+    background-image: linear-gradient(#0f0b30, #0f0b30), linear-gradient(to right,
+                #C871DE,
+                #69A0DC,
+                #53B5D7);
+
+    border: none;
+    width: 66vh;
+    text-align: center;
+    border-radius: 40px;
+}
+
+.input-large {
+    background-image: linear-gradient(#0f0b30, #0f0b30), linear-gradient(to right,
+            #C871DE,
+            #69A0DC,
+            #53B5D7);
+
+    border: none;
+    width: 150vh;
+    border-radius: 31px;
+    text-align: center; 
+}
+
+@media screen and (max-width: 480px) {
+    .apply-flex {
+        flex-direction: column;
+        margin: 0vh;
+    }
+
+    .total-apply {
+        margin-top: 5vh;
+    }
+
+    .heading-large-apply {
+        font-size: 30px;
+    }
+
+    .gradient-box-apply-small {
+        width: 32vh;
+        height: 9vh;
+        margin: 2vh;
+        margin-left: 8vh;
+        
+    }
+
+         .gradient-box-apply-large {
+            width: 47vh;
+         }
+     .button-apply {
+        margin: 4vh;
+     }    
+}
