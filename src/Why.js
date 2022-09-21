@@ -30,6 +30,7 @@ const Why = () => {
                         best European and global experts in the field, comprising investors, founders, researchers, developers, designers, 
                         marketers and legal advisors.</div>
                     </div>
+                    <img src={globe} alt="globe" className="img-why-right-for-mobile"/>
                 </div>
                 <div className="why-flex-passion">
                          <img src={stick} alt="" className="left-stick" />

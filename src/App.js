@@ -23,9 +23,9 @@ function App() {
         <Hero />
       </motion.div>
 
-     <Section animation={"translateX(-200px)"}>
-       <About />
-     </Section>
+    
+      <About />
+  
      <Section animation={"translateX(200px)"}>
       <What />
      </Section>
