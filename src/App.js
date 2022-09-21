@@ -32,9 +32,10 @@ function App() {
      <Section animation={"translateY(200px)"}>
       <Why />
      </Section>
-     <motion.div initial={{visibility:"hidden"}}>
+    
+     <Section animation={"translateY(200px)"}>
       <Contacts />
-     </motion.div>
+     </Section>
 
      <Section animation={"scale(.5,.5)"}>
       <Apply />

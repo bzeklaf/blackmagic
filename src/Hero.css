@@ -90,3 +90,29 @@ h3{
    }
 
 }
+
+
+@-webkit-keyframes bounce {
+    50% {
+    -webkit-transform :translateY(-30px);
+    }
+    100% {
+    -webkit-transform :translateY(0px);
+    }
+}
+    /* For firefox and others than webkit based browsers */
+    @keyframes bounce {
+    50% {
+    transform :translateY(-30px);
+    }
+    100% {
+    transform :translateY(0px);
+    }
+}
+
+
+.bouncing-arrow
+{
+    -webkit-animation: bounce 2s linear 0s infinite alternate;
+    animation: bounce 2s linear 0s infinite alternate;
+}
