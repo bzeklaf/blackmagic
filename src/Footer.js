@@ -11,19 +11,24 @@ const Footer = () => {
     return(
         <BrowserRouter>
             <div className="footer-section">
-            <div className="footer-left">
-                <img src={blackmagic} alt="logo" className="logo-footer"/>
-                <div className="text-small text-small-footer"> Black Magic is simply the 
-                best Web3 incubator and studio in the world. Hands down.
-                Cause we say so.</div>  
-                <Link to="#apply" smooth>
-                    <div className="button-footer"><Button/></div>
-                </Link>
-                <div className="social-icons">
-                    <img src={link} alt="" className="link-footer"/>
-                    <img src={twitter} alt="" className="twitter-footer"/>
-                </div>
-            </div>
+                <div className="footer-left">
+                    <img src={blackmagic} alt="logo" className="logo-footer"/>
+                    <div className="text-small text-small-footer"> Black Magic is simply the 
+                    best Web3 incubator and studio in the world. Hands down.
+                    Cause we say so.</div>  
+
+
+                    
+                    <Link to="#apply" smooth>
+                        <div className="button-footer"><Button/></div>
+                    </Link>
+                    <div className="social-icons">
+                        <img src={link} alt="" className="link-footer"/>
+                        <img src={twitter} alt="" className="twitter-footer"/>
+                    </div>
+                    </div>
+
+                
                 <div className="footer-right">
                         <div className="footer-box1 text-small">
                             <div>Legal Stuff</div>

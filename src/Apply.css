@@ -85,6 +85,92 @@ background-origin: border-box;
     border-radius: 31px;
     text-align: center; 
 }
+@media(max-width:1320px){
+    .gradient-box-apply-small {
+        width: 50vh !important;     
+    }
+    .apply-flex{
+        margin: 0 auto;
+        justify-content: center;
+    }
+    .gradient-box-apply-large {
+        width: 100vh;
+        margin: 0 auto;
+    }
+}
+@media (max-width:999px){
+    .gradient-box-apply-small {
+        width: 35vh !important;     
+    }
+    .apply-flex{
+        margin: 0 auto;
+        justify-content: center;
+    }
+    .gradient-box-apply-large {
+        width: 72vh;
+        margin: 0 auto;
+    }
+}
+@media(max-width:767px){
+    .apply-flex {
+        flex-direction: column;
+        margin: 0vh;
+    }
+
+    .total-apply {
+        margin-top: 5vh;
+    }
+
+    .heading-large-apply {
+        font-size: 30px;
+    }
+
+    .gradient-box-apply-small {
+        width: 55vh;
+        height: 9vh;
+        margin: 0 auto;
+        margin-bottom: 2vh;
+        
+    }
+
+    .gradient-box-apply-large {
+    width: 55vh;
+    margin: 0 auto;
+    }
+     .button-apply {
+        margin: 4vh;
+     }
+}
+@media(max-width:576px){
+    .apply-flex {
+        flex-direction: column;
+        margin: 0vh;
+    }
+
+    .total-apply {
+        margin-top: 5vh;
+    }
+
+    .heading-large-apply {
+        font-size: 30px;
+    }
+
+    .gradient-box-apply-small {
+        width: 45vh;
+        height: 9vh;
+        margin: 0 auto;
+        margin-bottom: 2vh;
+        
+    }
+
+    .gradient-box-apply-large {
+    width: 45vh;
+    margin: 0 auto;
+    }
+     .button-apply {
+        margin: 4vh;
+     }
+}
 
 @media screen and (max-width: 480px) {
     .apply-flex {
@@ -101,15 +187,15 @@ background-origin: border-box;
     }
 
     .gradient-box-apply-small {
-        width: 32vh;
-        height: 9vh;
-        margin: 2vh;
-        margin-left: 8vh;
+        width: 28vh !important;
+        margin: 0 auto;
+        margin-bottom: 2vh;
         
     }
 
          .gradient-box-apply-large {
-            width: 47vh;
+            width: 32vh;
+            margin: 0 auto;
          }
      .button-apply {
         margin: 4vh;

@@ -60,7 +60,138 @@
 .Navbar > .nav-toggle {
   display: none;
 }
-
+@media (min-width:1200px){
+  .nav-btn {
+    margin-top: 25px;
+  }
+  
+  .nav-items {
+    margin-top: 25px;
+  }
+  
+  .Navbar {
+    height: 60px;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url("./images/landing-back.svg");
+  }
+  
+  .Navbar > .nav-logo {
+    font-weight: 700;
+    font-size: 21px;
+    margin: 15px 15px 0px 0px ;
+    color: #ffffff;
+    margin-left: 25px;
+    max-width:300px;
+  }
+  
+  .Navbar > .nav-items > a {
+    font-family: 'Poppins';
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 30px;
+    text-decoration: none;
+    margin: 50px;
+    position: relative;
+    opacity: 0.9;
+    margin-top: 40px;
+  }
+  
+  .Navbar > .nav-items > a:hover {
+    opacity: 1;
+    background: linear-gradient(to right, #C871DE, #69A0DC, #53B5D7);
+    background-clip: text;
+    color: transparent;
+  }
+  
+  .Navbar > .nav-items > a::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background: linear-gradient(to right, #C871DE, #69A0DC, #53B5D7);
+    transition: all 0.45s;
+  }
+  
+  .Navbar > .nav-items > a:hover::before {
+    width: 100%;
+  }
+  
+  .Navbar > .nav-toggle {
+    display: none;
+  }
+}
+@media (max-width:1199px){
+  .nav-btn {
+    margin-top: 25px;
+  }
+  
+  .nav-items {
+    margin-top: 25px;
+  }
+  
+  .Navbar {
+    height: 60px;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url("./images/landing-back.svg");
+  }
+  
+  .Navbar > .nav-logo {
+    font-weight: 700;
+    font-size: 21px;
+    margin: 15px 15px 0px 0px ;
+    color: #ffffff;
+    margin-left: 25px;
+    max-width:250px;
+  }
+  
+  .Navbar > .nav-items > a {
+    font-family: 'Poppins';
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 30px;
+    text-decoration: none;
+    margin: 20px;
+    position: relative;
+    opacity: 0.9;
+    margin-top: 40px;
+  }
+  
+  .Navbar > .nav-items > a:hover {
+    opacity: 1;
+    background: linear-gradient(to right, #C871DE, #69A0DC, #53B5D7);
+    background-clip: text;
+    color: transparent;
+  }
+  
+  .Navbar > .nav-items > a::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background: linear-gradient(to right, #C871DE, #69A0DC, #53B5D7);
+    transition: all 0.45s;
+  }
+  
+  .Navbar > .nav-items > a:hover::before {
+    width: 100%;
+  }
+  
+  .Navbar > .nav-toggle {
+    display: none;
+  }
+}
 @media (max-width: 975px) {
   .Navbar > .nav-items {
     position: absolute;
@@ -90,10 +221,11 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    margin-right: 25px;
   }
 
   .nav-toggle > .bar {
-    margin-top:8vh;
+    margin-top:2vh;
     position: relative;
     width: 32px;
     height: 2px;
@@ -144,11 +276,21 @@
 
 
 @media only screen and (max-width: 480px) {
-  .Navbar {
+  /* .Navbar {
       flex-direction: column;
-    }
+    } */
   
   .Navbar >.nav-logo {
     padding-left: 0vh;
+    max-width:180px;
+    float: left;
+  }
+  .nav-toggle > .bar {
+    margin-top:3vh;
+    position: relative;
+    width: 32px;
+    height: 2px;
+    background: #ffffff;
+    transition: all 0.45s ease-in-out;
   }
 }

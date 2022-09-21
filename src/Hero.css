@@ -28,20 +28,57 @@ h3{
     justify-content: center;
     margin: 10vh;
 }
+@media (max-width:1200px) {
+    .hero-section{
+        margin-top: 8vh;
+        width: 100%;
+    }
+    h1{
+        font-size: 70px;
+    }
+    h3{
+        font-size: 40px;
+        margin:0vh 30vh 0vh 30vh;
+    }
+}
+@media (max-width:975px){
+    h3{
+        font-size: 35px;
+        margin:0vh 25vh 0vh 25vh;
+    }
+}
+@media (max-width:776px){
+    h1{
+        font-size: 60px;
+    }
+    h3{
+        font-size: 30px;
+        margin:0vh 15vh 0vh 15vh;
+    }
+}
+@media (max-width:570px) {
+    h1{
+        font-size: 50px;
+    }
+    h3{
+        font-size: 25px;
+        margin:0vh 15vh 0vh 15vh;
+    }
+}
 
 
 @media screen and (max-width: 480px) {
     h1 {
-        font-size: 50px;
-        margin-left: 6vh;
-        margin-right: 6vh;
-        padding-top: 10vh;
+        font-size: 35px;
+        margin-left: 2vh;
+        margin-right: 2vh;
+        padding-top: 5vh;
     }   
 
     h3 {
         font-size: 20px;
-        margin-left: 10vh;
-        margin-right: 10vh;
+        margin-left: 6vh;
+        margin-right: 6vh;
     }
 
    .hero-btn {

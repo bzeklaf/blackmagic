@@ -36,7 +36,7 @@ const form = useRef();
                 </div>
             </div>
             <div className="gradient-box-apply-large">
-                <textarea cols="30" rows="8"type="text" placeholder="Tell us what you really think" name="message" className="input-large text-small"/>
+                <textarea type="text" placeholder="Tell us what you really think" name="message" className="input-large text-small"/>
             </div>
             <div>
                 <input type="submit" value="GO FOR IT" className="button-apply text-small text-small-apply"/>
