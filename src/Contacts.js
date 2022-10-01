@@ -12,7 +12,7 @@ const Contacts = () => {
                     <div className="gradient-box-contacts">
                         <div className="inline">
                             <div className="heading-small-gradient heading-small-gradient-contacts">Jacek Wojcik</div>
-                            <img src={link} alt="linkedin"/>
+                            <a href="https://www.linkedin.com/in/jacek1/"><img src={link} alt="linkedin"/></a>
                         </div>
                         <div className="text-small text-small-contacts">Jack of all trades, master of crypto (self-proclaimed).
                          Enthusiast of startups, blockchain, technology, rollerblades, dogs and paprika crisps.</div>
@@ -24,7 +24,7 @@ const Contacts = () => {
                     <div className="gradient-box-contacts">
                         <div className="inline">
                             <div className="heading-small-gradient heading-small-gradient-contacts">Natalia Regiec</div>
-                            <img src={link} alt="linkedin"/>
+                            <a href="https://www.linkedin.com/in/natalia-regiec-053b17236/"><img src={link} alt="linkedin"/></a>
                         </div>
                         <div className="text-small text-small-contacts">A golden child of everything. Whatever she touches, turns into gold. 
                         Multitalented, hardworking, insightful and inteligent, but would dispute that. Ice creams' fan.</div>
